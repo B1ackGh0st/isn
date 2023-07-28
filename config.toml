@@ -1,7 +1,7 @@
-baseURL = «thecode.media»
-languageCode = «ru-ru»
-title = «Тестовый сервер на Hugo»
-theme = «hyde»
+baseURL = "https://b1ackgh0st.github.io/isn"
+languageCode = "ru-ru"
+title = "Тестовый сервер на Hugo"
+theme = "hyde"
 
 [params]
   author = "B1ackGh0st"
