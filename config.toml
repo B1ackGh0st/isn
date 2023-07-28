@@ -1,9 +1,7 @@
-theme = "hyde"
-
-baseURL = "https://B1ackGh0st.github.io/isn"
-languageCode = "en-us"
-title = "Christopher Hart's Blog"
-theme = "m10c"
+baseURL = «thecode.media»
+languageCode = «ru-ru»
+title = «Тестовый сервер на Hugo»
+theme = «hyde»
 
 [params]
   author = "B1ackGh0st"
