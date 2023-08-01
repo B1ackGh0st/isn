@@ -1,41 +1,3 @@
-/***************************************
-========================================
-
-	Author Name   : Belal Hossain
-	This is HTML5 template
-	Template Name : Arman Personal Portfolio Template
-	Version: 1.0
-	
-****************************************
-=======================================/
-
-/* ----------------------------------------------------------------
-
- ==> Table Of Content
-
-	01 Basics
-	02 Buttons
-	03 Header
-	04 Banner
-	05 About
-	06 Service
-	07 cta 
-	08 Works
-	09 Counter
-	10 Resume
-	11 Testimonial
-	12 Blog
-	13 Contact
-	14 Footer
-	15 Top-control
- 
-
----------------------------------------------------------------- */
-
-
-/* ----------------------------------------------------------------
-    [ 01 Start Basics ]
------------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -95,88 +57,8 @@ a:hover{
 	background: #fff;
 }
 .dark_bg{
-	background: #1d293e;
+	background: #171717;
 }
-/* START PRELOADER DESIGN */
-.preloader {
-	background: #fff;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 99999;	
-}
-.preloader.dark_preloader{
-	background: #1d293e;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 99999;	
-}
-.spinner {
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -25px 0 0 -25px;
-	font-size: 10px;
-	text-indent: -12345px;
-	z-index: 10000;
-}
-
-.double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #7564e5;
-  opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
-}
-.dark_preloader .double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #7564e5;
-  opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
-}
-
-.double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-}
-
-@-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
-}
-/* END PRELOADER DESIGN */
 
 /* Start Section-Padding */
 .section_padding{
@@ -200,7 +82,7 @@ a:hover{
     margin-bottom: 10px;
 }
 .section_heading h2 span{
-	color: #7564e5;
+	color: #e67e22;
 	font-weight: 600;
 }
 .dark_bg .section_heading h2{
@@ -228,16 +110,16 @@ a:hover{
     padding: 20px 25px;
     letter-spacing: 0.6px;
 	font-weight: 600;
-    background: #7564e5;
+    background: #e67e22;
 	border-radius: 25px;
     line-height: 10px;
-	border: 2px solid #7564e5;
+	border: 2px solid #e67e22;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out 0s;
 }
 .main_btn:hover{
-    color: #7564e5;
-	border: 2px solid #7564e5;
+    color: #e67e22;
+	border: 2px solid #e67e22;
     background: #10101a;
 }
 .blog-info .blog_btn{
@@ -282,7 +164,7 @@ a:hover{
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus{
-    color: #7564e5;
+    color: #e67e22;
 }
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 
@@ -313,24 +195,24 @@ a:hover{
     -webkit-transition: all 0.3s ease-in-out;
 }
 .navbar-default.menu-shrink .navbar-brand p{
-    color: #7564e5;
+    color: #e67e22;
 }
 .navbar-default.menu-shrink li a{ 
 	color: #333333 !important; 
 	transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
-.navbar-default.menu-shrink li a:hover { color: #7564e5 !important }
+.navbar-default.menu-shrink li a:hover { color: #e67e22 !important }
 .navbar-default.menu-shrink .navbar-nav>.active>a, 
 .navbar-default.menu-shrink .navbar-nav>.active>a:hover,
 .navbar-default.menu-shrink .navbar-nav>.active>a:focus{
-    color: #7564e5 !important;
+    color: #e67e22 !important;
     background-color: transparent;
 }
 .navbar-default .navbar-toggle { background: #fff none repeat scroll 0 0 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: #fff }
-.navbar-default .navbar-toggle .icon-bar { background-color: #7564e5 }
+.navbar-default .navbar-toggle .icon-bar { background-color: #e67e22 }
 /* ----------------------------------------------------------------
      [ End Header ]
 -----------------------------------------------------------------*/
@@ -357,7 +239,7 @@ a:hover{
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(7, 1, 90, 0.6);
+	background: rgba(230, 126, 34, 0.3);
 }
 .banner_content{
 	margin-top: 270px;
@@ -393,16 +275,16 @@ a:hover{
     padding: 15px 38px;
     letter-spacing: 0.5px;
 	font-weight: 600;
-    background: #7564e5;
+    background: #e67e22;
 	border-radius: 25px;
     line-height: 10px;
-	border: 2px solid #7564e5;
+	border: 2px solid #e67e22;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out 0s;
 }
 .banner_btn:hover{
-	color: #7564e5;
-	border: 2px solid #7564e5;
+	color: #e67e22;
+	border: 2px solid #e67e22;
     background: #10101a;
 }
 /* ----------------------------------------------------------------
@@ -414,7 +296,7 @@ a:hover{
     [ 05 Start About ]
 -----------------------------------------------------------------*/
 .about_image img{
-	border: 12px solid #7564e5;
+	border: 12px solid #e67e22;
 }
 .about_content_area{
 	margin-top: 25px;
@@ -425,7 +307,7 @@ a:hover{
     margin: 0 0 20px;
 }
 .single_about h4 span{
-	color: #7564e5;
+	color: #e67e22;
 }
 .dark_bg .single_about h4{
 	color: #fff;
@@ -497,15 +379,15 @@ a:hover{
 	transition: all 0.4s ease;
     font-size: 25px;
     display: inline-block;
-    color: #7564e5;
+    color: #e67e22;
 }
 .dark_bg .single-service i{
 	background: transparent;
 }
 .single-service:hover i{
-	background: #7564e5;
+	background: #e67e22;
 	color: #fff;
-	border: 1px solid #7564e5;
+	border: 1px solid #e67e22;
 }
 .single-service h4{
     font-size: 20px;
@@ -547,7 +429,66 @@ a:hover{
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-    background: rgba(7, 1, 90, 0.6);
+    background: rgba(23,23,23, 0.6);
+}
+.cta_content h3 {
+    color: #fff;
+    font-size: 30px;
+	text-transform: capitalize;
+	margin-top: 0;
+    margin-bottom: 20px;
+}
+/* ----------------------------------------------------------------
+    [ End Cta ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+    [ 07 Start Cta ]
+-----------------------------------------------------------------*/
+.cta_section-2{
+	background: url(../images/cta-action-2.jpg);
+	position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cta_section-2:before{
+	position: absolute;
+	content: "";
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+    background: rgba(23,23,23, 0.6);
+}
+.cta_content h3 {
+    color: #fff;
+    font-size: 30px;
+	text-transform: capitalize;
+	margin-top: 0;
+    margin-bottom: 20px;
+}
+/* ----------------------------------------------------------------
+    [ End Cta ]
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+    [ 07 Start Cta ]
+-----------------------------------------------------------------*/
+.cta_section-3{
+	background: url(../images/cta-action-3.jpg);
+	position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cta_section-3:before{
+	position: absolute;
+	content: "";
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+    background: rgba(23,23,23, 0.6);
 }
 .cta_content h3 {
     color: #fff;
@@ -584,18 +525,18 @@ a:hover{
     transition: all 0.5s ease-in-out;
 }
 .dark_bg .work_filter ul li{
-	border: 1px solid #7564e5;
+	border: 1px solid #e67e22;
 	color: #fff;
 }
 .work_filter ul li:hover{
-	border: 1px solid #7564e5;
-	background: #7564e5;
+	border: 1px solid #e67e22;
+	background: #e67e22;
 	color: #fff;
 }
 .work_filter .active {
     color: #fff;
-	border-color: #7564e5;
-    background: #7564e5;
+	border-color: #e67e22;
+    background: #e67e22;
 }
 .work_content_area .item-img{
 	position: relative;
@@ -619,7 +560,7 @@ a:hover{
 }
 .work_content_area .item-img-overlay{
 	position: absolute;
-    background: rgba(7, 1, 90, 0.6);
+    background: rgba(23,23,23, 0.6);
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -662,12 +603,12 @@ a:hover{
     height: 100%;
     right: 0;
     bottom: 0;
-    background: rgba(7, 1, 90, 0.6);
+    background: rgba(23,23,23, 0.6);
 }
 .single_counter span{
 	font-size: 38px;
 	font-weight: 600;
-	color: #7564e5;
+	color: #e67e22;
 }
 .single_counter h5{
     font-size: 18px;
@@ -705,7 +646,7 @@ a:hover{
 	box-shadow: 0px 0px 5px 0px #fff;
 }
 .edu-list > li strong{
-    color: #7564e5;
+    color: #e67e22;
     font-size: 14px;
 }
 .edu-list > li h5{
@@ -724,7 +665,7 @@ a:hover{
     left: -27px;
     width: 3px;
     height: 100%;
-    background: #7564e5;
+    background: #e67e22;
 }
 .edu-list > li::after{
 	content: "\e032";
@@ -737,7 +678,7 @@ a:hover{
 	text-align: center;
     font-size: 20px;
     font-family: 'et-line';
-    background: #7564e5;
+    background: #e67e22;
     color: #fff;
     box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.07);
     cursor: pointer;
@@ -756,7 +697,7 @@ a:hover{
 	text-align: center;
     font-size: 20px;
     font-family: 'et-line';
-    background: #7564e5;
+    background: #e67e22;
     color: #fff;
     box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.07);
     cursor: pointer;
@@ -800,7 +741,7 @@ a:hover{
 	margin-bottom: 30px;
 }
 .blog-thumb small{
-	color: #7564e5;
+	color: #e67e22;
 	font-weight: 500;
 	display: block;
 }
@@ -838,7 +779,7 @@ a:hover{
 	color: #fff;
 }
 .blog-thumb h4:hover{
-	color: #7564e5;
+	color: #e67e22;
 }
 .blog-info{
 	box-shadow: 0 1px 30px rgba(255, 255, 255, 0.2);
@@ -859,7 +800,7 @@ a:hover{
 	color: #fff;
 }
 .blog-info .blog_btn:hover{
-	color: #7564e5;
+	color: #e67e22;
 }
 /* ----------------------------------------------------------------
     [ End Blog ]
@@ -880,7 +821,7 @@ a:hover{
 	border-color: #fff;
 }
 .form .form-group input:focus{
-	border-color: #7564e5;
+	border-color: #e67e22;
 }
 .form .form-group textarea{
 	background: transparent;
@@ -892,7 +833,7 @@ a:hover{
 	border-color: #fff;
 }
 .form .form-group textarea:focus{
-	border-color: #7564e5;
+	border-color: #e67e22;
 }
 /* ----------------------------------------------------------------
     [ End Contact ]
@@ -919,7 +860,7 @@ a:hover{
     [ 15 Start Top-control ]
 -----------------------------------------------------------------*/
 .topcontrol{
-    background: #7564e5 none repeat scroll 0 0;
+    background: #e67e22 none repeat scroll 0 0;
     border-radius: 30px;
     bottom: 5px;
     margin-bottom: 80px;
@@ -942,7 +883,7 @@ a:hover{
 }
 .topcontrol:hover{
     background: #fff;
-    color: #7564e5;
+    color: #e67e22;
 }
 /* ----------------------------------------------------------------
     [ End Top-control ]
