@@ -27,6 +27,8 @@ h6{
 	color: #333333;
 	font-weight: 600;
 }
+
+
 img{
 	max-width: 100%;
 	height: auto;
@@ -76,7 +78,6 @@ a:hover{
 .section_heading h2{
     font-size: 40px;
     font-weight: 600;
-	text-transform: capitalize;
     color: #222;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -106,7 +107,6 @@ a:hover{
     color: #fff;
     font-size: 13px;
     margin-top: 30px;
-    text-transform: capitalize;
     padding: 20px 25px;
     letter-spacing: 0.6px;
 	font-weight: 600;
@@ -146,7 +146,6 @@ a:hover{
 .navbar-brand p{
     font-size: 32px;
     font-weight: 700;
-    text-transform: capitalize;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -158,7 +157,6 @@ a:hover{
     color: #fff;
     font-size: 15px;
     font-weight: 600;
-    text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
@@ -245,14 +243,12 @@ a:hover{
 	margin-top: 270px;
 }
 .banner_content strong{
-	text-transform: capitalize;
     color: #fff;
     font-size: 40px;
 }
 .banner_content h1{
     color: #fff;
     font-size: 50px;
-	text-transform: capitalize;
     margin: 15px 0 10px;
 }
 .banner_content h1 span .fw_600{
@@ -271,7 +267,6 @@ a:hover{
 	color: #fff;
     font-size: 13px;
     margin-top: 30px;
-    text-transform: capitalize;
     padding: 15px 38px;
     letter-spacing: 0.5px;
 	font-weight: 600;
@@ -303,7 +298,7 @@ a:hover{
 }
 .single_about h4{
     font-size: 32px;
-	text-transform: capitalize;
+
     margin: 0 0 20px;
 }
 .single_about h4 span{
@@ -327,7 +322,7 @@ a:hover{
 .about_details span{
     color: #222;
     font-weight: 600;
-    text-transform: capitalize;
+
     display: inline-block;
     width: 25%;
 }
@@ -392,12 +387,11 @@ a:hover{
 .single-service h4{
     font-size: 20px;
     margin-top: 30px;
-    text-transform: uppercase;
     color: #222;
 	transition: all 0.4s ease;
 }
 .dark_bg .single-service h4{
-	color: #fff;
+	color: #e67e22;
 	font-weight: 500;
 }
 .single-service p{
@@ -434,7 +428,6 @@ a:hover{
 .cta_content h3 {
     color: #fff;
     font-size: 30px;
-	text-transform: capitalize;
 	margin-top: 0;
     margin-bottom: 20px;
 }
@@ -464,7 +457,6 @@ a:hover{
 .cta_content h3 {
     color: #fff;
     font-size: 30px;
-	text-transform: capitalize;
 	margin-top: 0;
     margin-bottom: 20px;
 }
@@ -493,7 +485,6 @@ a:hover{
 .cta_content h3 {
     color: #fff;
     font-size: 30px;
-	text-transform: capitalize;
 	margin-top: 0;
     margin-bottom: 20px;
 }
@@ -512,7 +503,6 @@ a:hover{
 }
 .work_filter ul li{
     font-weight: 600;
-    text-transform: capitalize;
     display: inline-block;
     cursor: pointer;
     font-size: 15px;
@@ -757,7 +747,6 @@ a:hover{
 	color: #777;
 	font-size: 10px;
 	font-weight: bold;
-	text-transform: capitalize;
 	margin-left: 2px;
 }
 .dark_bg .blog-thumb small + span{
@@ -766,7 +755,6 @@ a:hover{
 .blog-thumb h4{
 	color: #222;
     padding: 0px;
-	text-transform: capitalize;
     font-size: 22px;
     margin-bottom: 15px;
     transition: all 0.3s ease;
@@ -789,7 +777,6 @@ a:hover{
 	color: #222;
     font-size: 14px;
     margin-top: 10px;
-    text-transform: capitalize;
 	background: transparent;
 	border: none;
 	font-weight: 500;
